@@ -1,0 +1,90 @@
+*,
+::before,
+::after{
+	margin:0;
+	padding:0;
+	box-sizing:boredre-box;
+}
+
+body{
+	background-color:#333;
+	font-family:sans-serif;
+	font-size:16px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow:column wrap;
+}
+
+
+#header{
+	margin:1rem auto;
+	text-align:center;
+}
+
+#header-h1{
+	font-size:5rem;
+	font-weight:800;
+	color:#fff;
+	padding:1rem auto;
+	margin-top:2rem;
+}
+
+#border{
+	display:grid;
+	grid-template-columns:repeat(3, auto);
+	align-items:center;
+	align-content:center;
+	width:18rem;
+	height:18rem;
+	margin:2rem auto;
+}
+
+.cell{
+	width:6rem;
+	height:6rem;
+	border:1px solid white;
+	color:#fff;
+	font-size:5rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#footer{
+	display:flex;
+	flex-flow:column wrap;
+	margin-top:2rem;
+	justify-content:center;
+	align-items:center;
+}
+
+#restart-btn{
+	padding:1rem;
+	font-size:1.5rem;
+	font-weight:800;
+	text-align:center;
+	background-color:#333;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:.5rem;
+	display:block;
+}
+
+#win-text{
+	text-align:center;
+	color:#fff;
+	font-size:3rem;
+	font-weight:800;
+	margin-bottom:2rem;
+}
+
+#restart-btn:hover{
+	background-color:#fff;
+	color:#333;
+	border-color:#333;
+}
+
+
+
+
